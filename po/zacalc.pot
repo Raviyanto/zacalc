@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-12 10:20-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/zacalc.py:84
+msgid "<b>PENDAPATAN</b>"
+msgstr ""
+
+#: src/zacalc.py:86
+msgid "<b>ZAKAT PENGHASILAN</b>"
+msgstr ""
+
+#: src/zacalc.py:88
+msgid "<b>ZAKAT SIMPANAN</b>"
+msgstr ""
+
+#: src/zacalc.py:90
+msgid "Pendapatan / gaji (per bulan)"
+msgstr ""
+
+#: src/zacalc.py:91
+msgid "Pendapatan lain (per bulan)"
+msgstr ""
+
+#: src/zacalc.py:92
+msgid "Pendapatan total (per tahun)"
+msgstr ""
+
+#: src/zacalc.py:93
+msgid "Kebutuhan (per bulan)"
+msgstr ""
+
+#: src/zacalc.py:94
+msgid "Kebutuhan total (per tahun)"
+msgstr ""
+
+#: src/zacalc.py:95
+msgid "Sisa pendapatan"
+msgstr ""
+
+#: src/zacalc.py:97
+msgid "Harga beras saat ini (per Kg)"
+msgstr ""
+
+#: src/zacalc.py:98 src/zacalc.py:105
+msgid "Besarnya nishab"
+msgstr ""
+
+#: src/zacalc.py:99
+msgid "Wajib zakat penghasilan?"
+msgstr ""
+
+#: src/zacalc.py:100
+msgid "Besarnya zakat penghasilan yang harus dibayarkan"
+msgstr ""
+
+#: src/zacalc.py:101 src/zacalc.py:108
+msgid "Zakat per tahun"
+msgstr ""
+
+#: src/zacalc.py:102 src/zacalc.py:109
+msgid "Zakat per bulan"
+msgstr ""
+
+#: src/zacalc.py:104
+msgid "Harga emas saat ini (per gram)"
+msgstr ""
+
+#: src/zacalc.py:106
+msgid "Wajib zakat simpanan?"
+msgstr ""
+
+#: src/zacalc.py:107
+msgid "Besarnya zakat simpanan yang harus dibayarkan"
+msgstr ""
+
+#: src/zacalc.py:113
+msgid "_Hitung Zakat"
+msgstr ""

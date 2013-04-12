@@ -1,0 +1,11 @@
+#!/bin/bash
+
+PROGRAM=/usr/lib/zacalc/zacalc.py
+PYTHON=`which python`
+
+if [ -e /scratchbox ]; then
+   run-standalone.sh $PYTHON $PROGRAM ;
+else
+   $PYTHON $PROGRAM ;
+fi
+
