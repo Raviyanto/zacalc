@@ -63,7 +63,7 @@ SCRIPTS=  ['data/zacalc']
 DATA = [('share/applications', ['data/zacalc.desktop']),
         ('share/icons', ['data/zacalc.png']),
         ('share/zacalc', ['data/logo.png']),
-        ('lib/zacalc', ['src/zacalc.py', 'src/i18n.py'])]
+        ('share/zacalc', ['src/zacalc.py', 'src/i18n.py'])]
  
 setup(name         = 'zacalc',
       version      = '1.3',
