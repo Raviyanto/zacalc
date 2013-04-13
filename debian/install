@@ -3,5 +3,5 @@ src/*.py /usr/share/zacalc/
 image/zacalc.png /usr/share/icons/
 image/logo.png /usr/share/zacalc/image/
 zacalc /usr/bin/
-po/en_US.mo /usr/share/locale/en/LC_MESSAGES/
+po/en_US.mo /usr/share/locale/en_US/LC_MESSAGES/
 
