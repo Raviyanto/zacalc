@@ -35,7 +35,7 @@ except:
 	sys.exit(1)
 	
 import gettext
-gettext.bindtextdomain('zacalc', 'po/')
+gettext.bindtextdomain('zacalc', '/usr/share/locale/')
 gettext.textdomain('zacalc')
 _ = gettext.gettext
 
