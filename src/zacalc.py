@@ -5,6 +5,7 @@
 #       Copyright 2010 Fitra Aditya <fitra@idmail.or.id>
 #		Modified (1) 2011 Ari Effendi <zerosix06@gmail.com>
 #		Modified (2) 2011 Abd Azis Ws <ul2albab@gmail.com>
+#       Modified (3) 2013 Raviyanto Ahmad <raviyanto@gmail.com>
 #       
 #		Powered by BlankOn Linux Developer (2010)
 #
@@ -55,6 +56,11 @@ You should have received a copy of the GNU General Public License
 along with BlankOn Zakat Calculator; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 MA 02110-1301, USA."""
+
+authors = ["Fitra Aditya <fitra@idmail.or.id>","Ari Effendi <zerosix06@gmail.com>",
+          "Abd Azis Ws <ul2albab@gmail.com>", "Raviyanto Ahmad <raviyanto@gmail.com>"]
+translate = """Alfian Fahmi <ketua@surabaya.di.blankon.in>"""
+design = ["Abd Azis Ws <ul2albab@gmail.com>"]
 
 class ZaCalc(object):
 	
@@ -129,7 +135,7 @@ class ZaCalc(object):
 		buttonbox.add(button4)
 		
 		#image
-		pixbuf = gtk.gdk.pixbuf_new_from_file("/usr/share/zacalc/logo.png")
+		pixbuf = gtk.gdk.pixbuf_new_from_file("/usr/share/zacalc/image/logo.png")
 		image = gtk.Image()
 		image.set_from_pixbuf(pixbuf)
 		image.show()
@@ -382,17 +388,13 @@ class ZaCalc(object):
 			self.clear_value(self)
 
 	def show_about(self, widget):
-		a=["Fitra Aditya <fitra@idmail.or.id>","Ari Effendi <zerosix06@gmail.com>","Abd Azis Ws <ul2albab@gmail.com>"]
-		translate = """Alfian Fahmi <ketua@surabaya.di.blankon.in>"""
-		design = ["Abd Azis Ws <ul2albab@gmail.com>"]
-		
 		about = gtk.AboutDialog()
 		about.set_program_name("BlankOn Zakat Calculator")
 		about.set_version("1.3")
 		about.set_copyright("(c) 2011 BlankOn Linux")
 		about.set_comments("BlankOn Zakat Calculator is Moslem tool to calculate the amount of zakat must be spent every year or every month")
 		about.set_website("http://www.blankonlinux.or.id")
-		about.set_authors(a)
+		about.set_authors(authors)
 		about.set_translator_credits(translate)
 		about.set_artists(design)
 		about.set_license(license)

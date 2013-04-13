@@ -1,0 +1,8 @@
+src/*.py /usr/share/zacalc/
+*.desktop /usr/share/applications/
+image/zacalc.png /usr/share/icons/
+image/logo.png /usr/share/zacalc/image/
+zacalc /usr/bin/
+po/en.mo /usr/share/locale/en/LC_MESSAGES/
+po/en_US.mo /usr/share/locale/en/LC_MESSAGES/
+
