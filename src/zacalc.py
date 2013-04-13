@@ -95,14 +95,14 @@ class ZaCalc(object):
 		labelC = gtk.Label('')
 		labelC.set_markup( _('<b>ZAKAT SIMPANAN</b>'))
 		
-		label1 = gtk.Label( _("Pendapatan / gaji (per bulan)"))
+		label1 = gtk.Label( _("Pendapatan atau gaji (per bulan)"))
 		label2 = gtk.Label( _("Pendapatan lain (per bulan)"))
 		label3 = gtk.Label( _("Pendapatan total (per tahun)"))
 		label4 = gtk.Label( _("Kebutuhan (per bulan)"))
 		label5 = gtk.Label( _("Kebutuhan total (per tahun)"))
 		label6 = gtk.Label( _("Sisa pendapatan"))
 		
-		label7 = gtk.Label( _("Harga beras saat ini (per Kg)"))
+		label7 = gtk.Label( _("Harga beras saat ini (per kg)"))
 		label8 = gtk.Label( _("Besarnya nishab"))
 		label9 = gtk.Label( _("Wajib zakat penghasilan?"))
 		label10 = gtk.Label( _("Besarnya zakat penghasilan yang harus dibayarkan"))
