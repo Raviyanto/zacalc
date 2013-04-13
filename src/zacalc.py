@@ -5,7 +5,7 @@
 #       Copyright 2010 Fitra Aditya <fitra@idmail.or.id>
 #		Modified (1) 2011 Ari Effendi <zerosix06@gmail.com>
 #		Modified (2) 2011 Abd Azis Ws <ul2albab@gmail.com>
-#       Modified (3) 2013 Raviyanto Ahmad <raviyanto@gmail.com>
+#               Modified (3) 2013 Raviyanto Ahmad <raviyanto@gmail.com>
 #
 #		Powered by BlankOn Linux Developer (2010)
 #
@@ -117,10 +117,10 @@ class ZaCalc(object):
 		label18 = gtk.Label( _("Zakat per bulan"))
 					
 		#gtk button
-		button1 = gtk.Button( _(label="_Ihwal"), stock='gtk-about')
+		button1 = gtk.Button( _("_Ihwal"), stock='gtk-about')
 		button2 = gtk.Button( _("_Hitung Zakat"))
-		button3 = gtk.Button( _(label="_Bersihkan"), stock='gtk-clear')
-		button4 = gtk.Button( _(label="_Tutup"), stock='gtk-close')
+		button3 = gtk.Button( _("_Bersihkan"), stock='gtk-clear')
+		button4 = gtk.Button( _("_Tutup"), stock='gtk-close')
 		
 		#vbox
 		vbox1 = gtk.VBox(False, 5)
